@@ -14,38 +14,36 @@
 ## Install
 
 ```bash
-npm install --save nepali-datepicker-reactjs
+npm install --save datepicker-reactjs-nepali
 
 or,
 
-yarn add nepali-datepicker-reactjs
+yarn add datepicker-reactjs-nepali
 ```
 
 ## Usage
 
 ```tsx
 import React, { useState } from "react"
-import { NepaliDatePicker } from "nepali-datepicker-reactjs"
-import "nepali-datepicker-reactjs/dist/index.css"
+import { NepaliDatePicker } from "datepicker-reactjs-nepali"
+import "datepicker-reactjs-nepali/dist/index.css"
 
 const App = () => {
     const [date, setDate] = useState<string>("")
 
     return (
         <form>
-            <label htmlFor="date">Date</label>
-            <NepaliDatePicker inputClassName="form-control"
-                              className=""
-                              value={date}
-                              onChange={(value: string) => setDate(value)}
-                              options={{ calenderLocale: "ne", valueLocale: "en" }} />
+            <label htmlFor='date'>Date</label>
+            <NepaliDatePicker
+                inputClassName='form-control'
+                className=''
+                value={date}
+                onChange={(value: string) => setDate(value)}
+                options={{ calenderLocale: "ne", valueLocale: "en" }}
+            />
         </form>
     )
 }
 
 export default App
 ```
-
-## License
-
-MIT © [https://github.com/puncoz-official](https://github.com/puncoz-official)

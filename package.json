@@ -1,6 +1,6 @@
 {
-    "name": "nepali-datepicker-reactjs",
-    "version": "1.1.5",
+    "name": "datepicker-reactjs-nepali",
+    "version": "0.0.2",
     "description": "Nepali Datepicker (Bikram Sambat) as a ReactJS component",
     "keywords": [
         "nepali date picker",
@@ -12,11 +12,11 @@
         "calender"
     ],
     "author": {
-        "name": "Puncoz Nepal",
-        "url": "https://github.com/puncoz"
+        "name": "Birat Sapkota",
+        "url": "https://github.com/biratsapkota"
     },
     "license": "MIT",
-    "repository": "https://github.com/puncoz/nepali-datepicker-reactjs",
+    "repository": "https://github.com/biratsapkota/nepali-datepicker-reactjs",
     "homepage": "https://puncoz-official.github.io/nepali-datepicker-reactjs",
     "main": "dist/index.js",
     "module": "dist/index.modern.js",
